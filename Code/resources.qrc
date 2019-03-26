@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>textures/grass_diff.png</file>
+        <file>textures/grass_norm.png</file>
+        <file>textures/rock_diff.png</file>
+        <file>textures/rock_norm.png</file>
+        <file>textures/grass_spec.png</file>
+        <file>textures/rock_spec.png</file>
+        <file>shaders/fragshader_water.glsl</file>
+        <file>shaders/vertshader_water.glsl</file>
+        <file>textures/water_dudv.png</file>
+        <file>textures/sand_diff.png</file>
+        <file>textures/sand_norm.png</file>
+        <file>textures/sand_spec.png</file>
+        <file>shaders/fragshader_terrain.glsl</file>
+        <file>shaders/vertshader_terrain.glsl</file>
+    </qresource>
+</RCC>
