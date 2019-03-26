@@ -39,7 +39,7 @@ When the 'sun' is setting or rising, it colors an orange color, which can be see
 
 ### Implementation
 
-The scene is rendered three times. Two of these passes are done to [Framebuffers](https://www.khronos.org/opengl/wiki/Framebuffer_Object). The textures that these passes give are used in the water shader. It uses a dUdV map to distort the textures, and renders them to a flat quad. This means the water doesn't actually wave, it is just an illusion. Calculating real-time reflections of complex objects is only feasible if this is the reflection is on a plane.
+The scene is rendered three times. Two of these passes are rendered to [Framebuffers](https://www.khronos.org/opengl/wiki/Framebuffer_Object). The textures that these passes give are used in the water shader. It uses a dUdV map to distort the textures, and renders them to a flat quad. This means the water doesn't actually wave, it is just an illusion. Calculating real-time reflections of complex objects is only feasible if this is the reflection is on a plane.
 
 The multiple textures are done by passing an array of materials to the shader. Based on the dot product of the triangle normal and the up vector, a slope is calculated. This is used in mixing between the grass/sand textures and the rock texture. Then, the sand and water are mixed based on a height. 
 
