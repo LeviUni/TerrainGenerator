@@ -1,6 +1,8 @@
 # Terrain Generator
 Terrain Generator build in Qt for the Computer Graphics 2019 course at RuG
 
+The code has been tested on the computers at the Bernoulliborg. If something doesn't work properly, try updating your graphics card drivers, and otherwise try it on the uni computers.
+
 ---
 
 ### Overview
