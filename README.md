@@ -1,5 +1,5 @@
 # Terrain Generator
-Terrain Generator build in Qt for the Computer Graphics 2019 course @RuG
+Terrain Generator build in Qt for the Computer Graphics 2019 course at RuG
 
 ---
 
